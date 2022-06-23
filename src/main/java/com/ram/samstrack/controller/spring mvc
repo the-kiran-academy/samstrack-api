@@ -1,0 +1,24 @@
+Spring mvc WEB
+
+flow of mcv
+we start our project then  web.xml  (url /) --> user controller ( url / match and then redirecting to home.jsp) 
+open home.jsp( click on add user --> addUserPage -> user controller( url /addUserPage match then redirecting to user.jsp
+
+1.create new maven project( spring-mvc)
+2.we got inbuilt ( req. dependancies, web.xml ,home.jsp,mvcConfiguration(dispatcher),controller)
+
+* spring mvc + hibernate integration
+3. integrate hibernate in spring mvc
+	3.1 add dependancies (  hibernate core and mysql connector)
+	3.2 hibernate configuration class  (we required datasource and hibernate properties for sessionfactory)
+
+4.	create package structure
+	configuration	controller		entity		service		dao	
+
+5.mvc architecture layers (controller > service > dao )
+
+6.design pattern ( I to C   ..  interface to class )
+	
+	
+	
+	
